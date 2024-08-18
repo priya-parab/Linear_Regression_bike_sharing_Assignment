@@ -30,21 +30,21 @@ To model the demand for shared bikes with the available independent variables. I
 
 As per our final Model, the top 3 predictor variables that influences the bike booking are:
 
-Temperature (temp) - A coefficient value of ‘0.464549’ indicated that a unit increase in temp variable increases the bike hire numbers by 0.464549 units.
+Temperature (atemp) - A coefficient value of ‘0.383568’ indicated that a unit increase in temp variable increases the bike hire numbers by 0.383568 units.
 
-Year (yr) - A coefficient value of ‘0.233334’ indicated that a unit increase in year variable increases the bike hire numbers by 0.233334 units.
+Year (yr) - A coefficient value of ‘0.240592’ indicated that a unit increase in year variable increases the bike hire numbers by 0.240592 units.
 
-weekday_Sun - A coefficient value of ‘-0.036793’ indicated that a Weekday sunday, decrease the bike hire numbers by 0.036793 units.
+season_spring, windspeed,weathersit_light_snow, weathersit_Mist+Cloudy are negative coefficients which decrease the bike hire numbers
 
-month_Mar and month_Sep - A coefficients value of 0.054147 & 0.058492 indicated that a (Mar & Sep)month, increases the bike hire numbers by 0.054147 & 0.058492 units.
+month_Mar, month_Oct and month_Sep - A coefficients value of 0.062384, 0.092330 & 0.084001 indicated that a (Mar, Oct & Sep)month, increases the bike hire numbers.
 
-season_spring, windspeed,weathersit_light_snow are negative coefficients which decrease the bike hire numbers
+Working_day, weekday_Sat - A coefficient value indicated that a working_day & weekday_Sat, increases the bike hire numbers.
 
 **Business Goals
 
 Temperature could be a prime factor for making decision for the Organisation
 We can see demand for bikes was more in 2019 than 2018
-Working days(Except sunday) and Month of march and sept as they have good influence on bike rentals. So it would be great to provide offers to the working individuals on this days.
+Working days, weekday_Sat and Month of march,Oct and sept as they have good influence on bike rentals. So it would be great to provide offers on this days.
 
 ## Technologies Used
 
