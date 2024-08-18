@@ -42,8 +42,8 @@ Working_day, weekday_Sat - A coefficient value indicated that a working_day & we
 
 **Business Goals
 
-Temperature could be a prime factor for making decision for the Organisation
-We can see demand for bikes was more in 2019 than 2018
+Temperature could be a prime factor for making decision for the Organisation. <br>
+We can see demand for bikes was more in 2019 than 2018. <br>
 Working days, weekday_Sat and Month of march,Oct and sept as they have good influence on bike rentals. So it would be great to provide offers on this days.
 
 ## Technologies Used
